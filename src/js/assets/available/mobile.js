@@ -1,0 +1,81 @@
+// From:
+// https://github.com/ExodusMovement/exodus-mobile/blob/master/src/_local_modules/assets/supported-assets-list.js
+
+// Conditionally available assets
+export const MOBILE_PRIVATE_ASSETS = [
+  'eden', // exodusSharesAssetName
+  'sportx_matic',
+  'test_cardano', // ADA token
+  'worldmobil_cardano_262abe57', // ADA token
+  // ERC20 (old)
+  'aeron',
+  'aion',
+  'binance',
+  'mithril',
+  'qtum',
+  'revain',
+  'wax',
+  // other
+  'smoothlovepotion_solana',
+  'tetherusd_algorand',
+  'tinyusdc_algorand',
+  // Binance Chain tokens (bnbmainnet)
+  'busd_bnbmainnet',
+  'thorchain_bnbmainnet',
+]
+
+export const MOBILE_WALLET_BASE_ASSETS = [
+  'algorand',
+  'aptos',
+  'aurora',
+  'avalanchec',
+  'axelar',
+  'basemainnet',
+  'bcash',
+  'bitcoin',
+  'bitcoinsv',
+  'bsc',
+  'cardano',
+  'cosmos',
+  'cronos',
+  'dash',
+  'decred',
+  'digibyte',
+  'dogecoin',
+  'elrond',
+  'eosio',
+  'ethereum',
+  'ethereumarbone',
+  'ethereumarbnova',
+  'ethereumclassic',
+  'fantommainnet',
+  'filecoin',
+  'flare',
+  'hedera',
+  'iconmainnet',
+  'injective',
+  'kava',
+  'lightningnetwork',
+  'litecoin',
+  'matic',
+  'monero',
+  'ontology',
+  'ontologygas',
+  'osmosis',
+  'optimism',
+  'polkadot',
+  'qtumignition',
+  'ravencoin',
+  'ripple',
+  'rootstock',
+  'solana',
+  'stellar',
+  'tezos',
+  'tfuel',
+  'theta',
+  'tronmainnet',
+  'vechainthor',
+  'waves',
+  'zcash',
+  'zilliqa',
+]
