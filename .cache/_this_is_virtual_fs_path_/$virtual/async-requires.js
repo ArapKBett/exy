@@ -1,8 +1,57 @@
-__webpack_require__.g = (function() {
-	if (typeof globalThis === 'object') return globalThis;
-	try {
-		return this || new Function('return this')();
-	} catch (e) {
-		if (typeof window === 'object') return window;
-	}
-})();
+exports.components = {
+  "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
+  "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
+  "component---src-pages-assets-js": () => import("./../../../src/pages/assets.js" /* webpackChunkName: "component---src-pages-assets-js" */),
+  "component---src-pages-careers-js": () => import("./../../../src/pages/careers.js" /* webpackChunkName: "component---src-pages-careers-js" */),
+  "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
+  "component---src-pages-es-descarga-js": () => import("./../../../src/pages/es/descarga.js" /* webpackChunkName: "component---src-pages-es-descarga-js" */),
+  "component---src-pages-es-index-js": () => import("./../../../src/pages/es/index.js" /* webpackChunkName: "component---src-pages-es-index-js" */),
+  "component---src-pages-investor-newsletter-js": () => import("./../../../src/pages/investor/newsletter.js" /* webpackChunkName: "component---src-pages-investor-newsletter-js" */),
+  "component---src-pages-investor-newsletter-unsubscribe-js": () => import("./../../../src/pages/investor/newsletter/unsubscribe.js" /* webpackChunkName: "component---src-pages-investor-newsletter-unsubscribe-js" */),
+  "component---src-pages-investor-newsletter-update-preferences-js": () => import("./../../../src/pages/investor/newsletter/update-preferences.js" /* webpackChunkName: "component---src-pages-investor-newsletter-update-preferences-js" */),
+  "component---src-pages-legal-inquiries-js": () => import("./../../../src/pages/legal-inquiries.js" /* webpackChunkName: "component---src-pages-legal-inquiries-js" */),
+  "component---src-pages-m-backup-vault-verify-[code]-js": () => import("./../../../src/pages/m/backup-vault/verify/[code].js" /* webpackChunkName: "component---src-pages-m-backup-vault-verify-[code]-js" */),
+  "component---src-pages-m-fiat-offramp-js": () => import("./../../../src/pages/m/fiatOfframp.js" /* webpackChunkName: "component---src-pages-m-fiat-offramp-js" */),
+  "component---src-pages-m-fiat-onramp-js": () => import("./../../../src/pages/m/fiatOnramp.js" /* webpackChunkName: "component---src-pages-m-fiat-onramp-js" */),
+  "component---src-pages-m-fiat-ramp-js": () => import("./../../../src/pages/m/fiat-ramp.js" /* webpackChunkName: "component---src-pages-m-fiat-ramp-js" */),
+  "component---src-pages-m-robinhood-js": () => import("./../../../src/pages/m/robinhood.js" /* webpackChunkName: "component---src-pages-m-robinhood-js" */),
+  "component---src-pages-newsletter-unsubscribe-js": () => import("./../../../src/pages/newsletter/unsubscribe.js" /* webpackChunkName: "component---src-pages-newsletter-unsubscribe-js" */),
+  "component---src-pages-newsletter-update-preferences-js": () => import("./../../../src/pages/newsletter/update-preferences.js" /* webpackChunkName: "component---src-pages-newsletter-update-preferences-js" */),
+  "component---src-pages-privacy-js": () => import("./../../../src/pages/privacy.js" /* webpackChunkName: "component---src-pages-privacy-js" */),
+  "component---src-pages-puffer-js": () => import("./../../../src/pages/puffer.js" /* webpackChunkName: "component---src-pages-puffer-js" */),
+  "component---src-pages-share-safe-report-js": () => import("./../../../src/pages/share-safe-report.js" /* webpackChunkName: "component---src-pages-share-safe-report-js" */),
+  "component---src-pages-support-exodus-pro-js": () => import("./../../../src/pages/support/exodus-pro.js" /* webpackChunkName: "component---src-pages-support-exodus-pro-js" */),
+  "component---src-pages-trezor-wallet-js": () => import("./../../../src/pages/trezor-wallet.js" /* webpackChunkName: "component---src-pages-trezor-wallet-js" */),
+  "component---src-pages-www-apps-js": () => import("./../../../src/pages/www/apps.js" /* webpackChunkName: "component---src-pages-www-apps-js" */),
+  "component---src-pages-www-brand-js": () => import("./../../../src/pages/www/brand.js" /* webpackChunkName: "component---src-pages-www-brand-js" */),
+  "component---src-pages-www-buy-crypto-js": () => import("./../../../src/pages/www/buy-crypto.js" /* webpackChunkName: "component---src-pages-www-buy-crypto-js" */),
+  "component---src-pages-www-cardano-js": () => import("./../../../src/pages/www/cardano.js" /* webpackChunkName: "component---src-pages-www-cardano-js" */),
+  "component---src-pages-www-chart-js": () => import("./../../../src/pages/www/chart.js" /* webpackChunkName: "component---src-pages-www-chart-js" */),
+  "component---src-pages-www-confirm-investor-subscription-js": () => import("./../../../src/pages/www/confirm-investor-subscription.js" /* webpackChunkName: "component---src-pages-www-confirm-investor-subscription-js" */),
+  "component---src-pages-www-confirm-subscription-js": () => import("./../../../src/pages/www/confirm-subscription.js" /* webpackChunkName: "component---src-pages-www-confirm-subscription-js" */),
+  "component---src-pages-www-contact-support-js": () => import("./../../../src/pages/www/contact-support.js" /* webpackChunkName: "component---src-pages-www-contact-support-js" */),
+  "component---src-pages-www-desktop-js": () => import("./../../../src/pages/www/desktop.js" /* webpackChunkName: "component---src-pages-www-desktop-js" */),
+  "component---src-pages-www-download-js": () => import("./../../../src/pages/www/download.js" /* webpackChunkName: "component---src-pages-www-download-js" */),
+  "component---src-pages-www-earn-crypto-js": () => import("./../../../src/pages/www/earn-crypto.js" /* webpackChunkName: "component---src-pages-www-earn-crypto-js" */),
+  "component---src-pages-www-index-js": () => import("./../../../src/pages/www/index.js" /* webpackChunkName: "component---src-pages-www-index-js" */),
+  "component---src-pages-www-m-series-js": () => import("./../../../src/pages/www/m-series.js" /* webpackChunkName: "component---src-pages-www-m-series-js" */),
+  "component---src-pages-www-meta-js": () => import("./../../../src/pages/www/meta.js" /* webpackChunkName: "component---src-pages-www-meta-js" */),
+  "component---src-pages-www-mobile-js": () => import("./../../../src/pages/www/mobile.js" /* webpackChunkName: "component---src-pages-www-mobile-js" */),
+  "component---src-pages-www-newsletter-js": () => import("./../../../src/pages/www/newsletter.js" /* webpackChunkName: "component---src-pages-www-newsletter-js" */),
+  "component---src-pages-www-pomp-js": () => import("./../../../src/pages/www/pomp.js" /* webpackChunkName: "component---src-pages-www-pomp-js" */),
+  "component---src-pages-www-purchase-js": () => import("./../../../src/pages/www/purchase.js" /* webpackChunkName: "component---src-pages-www-purchase-js" */),
+  "component---src-pages-www-referrals-redirect-js": () => import("./../../../src/pages/www/referrals-redirect.js" /* webpackChunkName: "component---src-pages-www-referrals-redirect-js" */),
+  "component---src-pages-www-releases-js": () => import("./../../../src/pages/www/releases.js" /* webpackChunkName: "component---src-pages-www-releases-js" */),
+  "component---src-pages-www-securitize-js": () => import("./../../../src/pages/www/securitize.js" /* webpackChunkName: "component---src-pages-www-securitize-js" */),
+  "component---src-pages-www-security-js": () => import("./../../../src/pages/www/security.js" /* webpackChunkName: "component---src-pages-www-security-js" */),
+  "component---src-pages-www-vip-js": () => import("./../../../src/pages/www/vip.js" /* webpackChunkName: "component---src-pages-www-vip-js" */),
+  "component---src-pages-www-waitlists-reject-js": () => import("./../../../src/pages/www/waitlists-reject.js" /* webpackChunkName: "component---src-pages-www-waitlists-reject-js" */),
+  "component---src-pages-www-wallet-as-a-service-js": () => import("./../../../src/pages/www/wallet-as-a-service.js" /* webpackChunkName: "component---src-pages-www-wallet-as-a-service-js" */),
+  "component---src-pages-www-web-3-wallet-js": () => import("./../../../src/pages/www/web3-wallet.js" /* webpackChunkName: "component---src-pages-www-web-3-wallet-js" */),
+  "component---src-pages-www-x-twitter-js": () => import("./../../../src/pages/www/x-twitter.js" /* webpackChunkName: "component---src-pages-www-x-twitter-js" */),
+  "component---src-pages-www-xo-pay-js": () => import("./../../../src/pages/www/xo-pay.js" /* webpackChunkName: "component---src-pages-www-xo-pay-js" */),
+  "component---src-templates-asset-page-1-js": () => import("./../../../src/templates/asset-page-1.js" /* webpackChunkName: "component---src-templates-asset-page-1-js" */),
+  "component---src-templates-asset-page-js": () => import("./../../../src/templates/asset-page.js" /* webpackChunkName: "component---src-templates-asset-page-js" */),
+  "component---src-templates-download-js": () => import("./../../../src/templates/download.js" /* webpackChunkName: "component---src-templates-download-js" */)
+}
+
