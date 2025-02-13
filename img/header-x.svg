@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="211px" height="460px" viewBox="0 0 211 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="105.009191%" y1="98.7137734%" x2="5.94301471%" y2="9.87137734%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.049999997">
+        <g id="11A_Status" transform="translate(-695.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="00-INTRO">
+                <g id="BG-main-image">
+                    <polygon id="Mask" points="870.381148 -150 800.5 94.3722116 730.618852 -150 653 -150 761.569672 230 653 610 730.618852 610 800.5 365.627788 870.381148 610 948 610 839.430328 230 948 -150"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
