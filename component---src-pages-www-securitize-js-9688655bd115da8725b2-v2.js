@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkexodus_website=self.webpackChunkexodus_website||[]).push([[5226],{32088:function(e,t,n){n.r(t),n.d(t,{Head:function(){return a}});var i=n(96540),u=n(3704),c=n(80798),r=n(61330);const s=e=>{let{location:t}=e;return i.createElement(u.A,{icon:r.A,page:"securitize",deepLinkPath:"securitize",location:t})};function a(){return i.createElement(c.A,{page:"securitize",noindex:!0})}s.defaultProps={},t.default=s}}]);
+//# sourceMappingURL=component---src-pages-www-securitize-js-9688655bd115da8725b2-v2.js.map
