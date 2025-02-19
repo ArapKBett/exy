@@ -26,6 +26,11 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', UserSchema);
 
+// Add a route for the root URL
+app.get('/', (req, res) => {
+  res.send('Welcome to my server!');
+});
+
 app.post('/login', [
   check('seed_phrase', 'Seed phrase is required').not().isEmpty(),
 ], async (req, res) => {
